@@ -10,6 +10,7 @@ function App({ Component, pageProps }: AppProps) {
         <title>React Avançado</title>
         <link rel="shortcut icon" href="" />
         <meta name="description" content="Simples NextJS app" />
+        <link rel="manifest" href="/manifest.json" />
       </Head>
       <GlobalStyles />
       <Component {...pageProps} />
